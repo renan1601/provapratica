@@ -1,7 +1,11 @@
 const express = require('express');
-
-const logs = require('script.js');
+const router = require('./rotas/router');
 const app = express();
-const PORT = 8000; 
 
-app.listen(PORT,() => {console.log(`servidor ativo em http://localhost:${PORT}`)});
+app.use(express.json());
+app.use(router);
+
+const PORT = 8000;
+app.listen(PORT, () => {
+    console.log(`Servidor ativo em: http://localhost:${PORT}`);
+});

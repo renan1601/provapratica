@@ -1,19 +1,32 @@
 {
   "dependências": {
-    "expressar":"^5.1.0",
-    "demônio nodular":"^3.1.10",
-    "uuid":"^11.1.0"
+    "expressar": "^5.1.0",
+    "uuid": "^11.1.0"
   },
-  "nome":"prova_ramon",
-  "versão":"1.0.0",
-  "principal":"node.js",
-  "devDependencies": {},
+  "nome": "prova_ramon",
+  "versão": "1.0.0",
+  "principal": "node.js",
   "roteiros": {
-    "teste":"eco\"Erro: nenhum teste especificado\"&& saída 1",
-    "começar":"nodemon node.js"
+    "teste": "eco\"Erro: nenhum teste especificado\"&& saída 1",
+    "começar": "nodemon node.js"
   },
   "palavras-chave": [],
-  "autor":"",
-  "licença":"ISC",
-  "descrição":""
+  "autor": "",
+  "licença": "ISC",
+  "descrição": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  },
+  "name": "provapratica",
+  "version": "1.0.0",
+  "main": "node.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
