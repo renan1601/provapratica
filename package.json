@@ -1,0 +1,19 @@
+{
+  "dependências": {
+    "expressar":"^5.1.0",
+    "demônio nodular":"^3.1.10",
+    "uuid":"^11.1.0"
+  },
+  "nome":"prova_ramon",
+  "versão":"1.0.0",
+  "principal":"node.js",
+  "devDependencies": {},
+  "roteiros": {
+    "teste":"eco\"Erro: nenhum teste especificado\"&& saída 1",
+    "começar":"nodemon node.js"
+  },
+  "palavras-chave": [],
+  "autor":"",
+  "licença":"ISC",
+  "descrição":""
+}
